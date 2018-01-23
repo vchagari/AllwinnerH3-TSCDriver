@@ -1,0 +1,196 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCH	Makefile	/^ARCH = arm$/;"	m
+CC	Makefile	/^CC = ${CROSS_COMPILE}gcc$/;"	m
+CLK_NAME_LEN	dvb_drv.h	37;"	d
+COMPILE_PREFIX	Makefile	/^COMPILE_PREFIX := ${TOOLS_PATH}${TARGET_PREFIX}$/;"	m
+CPIO	Makefile	/^CPIO := $(shell which cpio)$/;"	m
+CROSS	Makefile	/^CROSS = ARCH=arm$/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE := ${COMPILE_PREFIX}$/;"	m
+DRIVER_INTERFACE_H	dvb_drv.h	2;"	d
+DRV_VERSION	tscdrv.c	/^MODULE_VERSION(DRV_VERSION);$/;"	v
+DRV_VERSION	tscdrv.h	6;"	d
+DUMP_ALL_STR	sys_config.c	683;"	d	file:
+ECHO	Makefile	/^ECHO := $(shell which echo)$/;"	m
+ET_DIR	Makefile	/^ET_DIR := $(STBSDK)\/..\/..\/kerneldrivers\/sunxi-tsc$/;"	m
+ITEM_TYPE_TO_STR	sys_config.c	29;"	d	file:
+KERNEL_DIR	Makefile	/^KERNEL_DIR ?= $(STBSDK)\/cache\/sources\/linux-sun8i\/sun8i\/$/;"	m
+LD	Makefile	/^LD = $(CROSS_COMPILE)ld$/;"	m
+PATH	Makefile	/^export PATH := $(TOOLS_PATH):$(PATH)$/;"	m
+PWD	Makefile	/^PWD := $(shell pwd)$/;"	m
+REGS_BASE	dvb_drv.h	44;"	d
+REGS_SIZE	dvb_drv.h	45;"	d
+SCIRPT_PARSER_VALUE_TYPE_GPIO_WORD	sys_config.c	/^	SCIRPT_PARSER_VALUE_TYPE_GPIO_WORD$/;"	e	enum:__anon8	file:
+SCIRPT_PARSER_VALUE_TYPE_INVALID	sys_config.c	/^	SCIRPT_PARSER_VALUE_TYPE_INVALID = 0,$/;"	e	enum:__anon8	file:
+SCIRPT_PARSER_VALUE_TYPE_MULTI_WORD	sys_config.c	/^	SCIRPT_PARSER_VALUE_TYPE_MULTI_WORD,$/;"	e	enum:__anon8	file:
+SCIRPT_PARSER_VALUE_TYPE_SINGLE_WORD	sys_config.c	/^	SCIRPT_PARSER_VALUE_TYPE_SINGLE_WORD,$/;"	e	enum:__anon8	file:
+SCIRPT_PARSER_VALUE_TYPE_STRING	sys_config.c	/^	SCIRPT_PARSER_VALUE_TYPE_STRING,$/;"	e	enum:__anon8	file:
+SCRIPT_FREE	sys_config.c	26;"	d	file:
+SCRIPT_MALLOC	sys_config.c	25;"	d	file:
+SCRIPT_NAME_SIZE_MAX	sys_config.c	180;"	d	file:
+SED	Makefile	/^SED := $(shell which sed)$/;"	m
+STBSDK	Makefile	/^STBSDK ?= $(HOME)\/Dev\/Orangepi\/Orangepione\/build$/;"	m
+TARGET_PREFIX	Makefile	/^TARGET_PREFIX := arm-linux-gnueabihf-$/;"	m
+TOOLS_PATH	Makefile	/^TOOLS_PATH ?= $(STBSDK)\/cache\/toolchains\/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf\/bin\/$/;"	m
+TSCDEV_DISABLE_CLK	dvb_drv.h	15;"	d
+TSCDEV_DISABLE_INT	dvb_drv.h	10;"	d
+TSCDEV_ENABLE_CLK	dvb_drv.h	14;"	d
+TSCDEV_ENABLE_INT	dvb_drv.h	9;"	d
+TSCDEV_FOR_TEST	dvb_drv.h	21;"	d
+TSCDEV_GET_CLK	dvb_drv.h	18;"	d
+TSCDEV_GET_CLK_FREQ	dvb_drv.h	19;"	d
+TSCDEV_GET_PHYSICS	dvb_drv.h	11;"	d
+TSCDEV_IOC_MAGIC	dvb_drv.h	7;"	d
+TSCDEV_IOC_MAXNR	dvb_drv.h	24;"	d
+TSCDEV_MAJOR	tscdrv.h	11;"	d
+TSCDEV_MINOR	tscdrv.h	15;"	d
+TSCDEV_PUT_CLK	dvb_drv.h	16;"	d
+TSCDEV_RELEASE_SEM	dvb_drv.h	12;"	d
+TSCDEV_SET_CLK_FREQ	dvb_drv.h	17;"	d
+TSCDEV_SET_SRC_CLK_FREQ	dvb_drv.h	20;"	d
+TSCDEV_WAIT_INT	dvb_drv.h	13;"	d
+TS_IRQ_NO	tscdrv.h	8;"	d
+__TSC_DRV_H__	tscdrv.h	3;"	d
+__cached_gcc_-print-file-name_include	.cache.mk	/^__cached_gcc_-print-file-name_include := \/usr\/lib\/gcc\/x86_64-linux-gnu\/5\/include$/;"	m
+__initdata	sys_config.c	/^static unsigned int cfg_addr __initdata;$/;"	v	file:
+__initdata	sys_config.c	/^static unsigned int cfg_size  __initdata;$/;"	v	file:
+__sysfs_dump_mainkey	sys_config.c	/^int __sysfs_dump_mainkey(script_main_key_t *pmainkey, char *buf)$/;"	f
+__this_module	tscdrv.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	tscdrv.mod.c	/^__used$/;"	v	file:
+__used	tscdrv.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+cdev	tscdrv.h	/^    struct cdev cdev;               \/* char device struct *\/$/;"	m	struct:tsc_dev	typeref:struct:tsc_dev::cdev
+clk_name	dvb_drv.h	/^    char            clk_name[CLK_NAME_LEN];$/;"	m	struct:clk_para
+clk_para	dvb_drv.h	/^struct clk_para {$/;"	s
+clk_rate	dvb_drv.h	/^    int             clk_rate;$/;"	m	struct:clk_para
+close_all_fillters	tscdrv.c	/^static void close_all_fillters(struct tsc_dev *devp)$/;"	f	file:
+cnt	sys_config.c	/^        u32 cnt : 16;$/;"	m	struct:__anon2::__anon3	file:
+data	sys_config.c	/^    int     data;$/;"	m	struct:__anon5	file:
+dev	tscdrv.h	/^    struct device *dev;             \/* ptr to class device struct *\/$/;"	m	struct:tsc_dev	typeref:struct:tsc_dev::device
+drv_level	sys_config.c	/^    int     drv_level;$/;"	m	struct:__anon5	file:
+dump_mainkey	sys_config.c	/^void dump_mainkey(script_main_key_t *pmainkey)$/;"	f
+dump_show	sys_config.c	/^static ssize_t dump_show(struct class *class, struct class_attribute *attr, char *buf)$/;"	f	file:
+dump_store	sys_config.c	/^static ssize_t dump_store(struct class *class, struct class_attribute *attr,$/;"	f	file:
+dump_struct	sys_config.c	/^static sysfs_dump_t dump_struct;$/;"	v	file:
+early_script	sys_config.c	/^static int __init early_script(char *p)$/;"	f	file:
+g_script	sys_config.c	/^static script_main_key_t   *g_script;$/;"	v	file:
+gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-Wno-unused-but-set-variable__-fno-PIE_-fno-dwarf2-cfi-asm__-mabi_aapcs-linux_-mno-thumb-interwork_-mfpu_vfp_-funwind-tables_-mthumb_-Wa_-mauto-it_-Wa_-W_-D__LINUX_ARM_ARCH___7_-march_armv5t_-Wa_-march_armv7-a___-msoft-float_-Uarm______-O2__	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-goto.sh_gcc_-Wall_-Wundef_-Wstrict-prototypes_-Wno-trigraphs_-fno-strict-aliasing_-fno-common_-fshort-wchar_-Werror-implicit-function-declaration_-Wno-format-security_-std_gnu89_-Wno-unused-but-set-variable__-fno-PIE_-fno-dwarf2-cfi-asm__-mabi_aapcs-linux_-mno-thumb-interwork_-mfpu_vfp_-funwind-tables_-mthumb_-Wa_-mauto-it_-Wa_-W_-D__LINUX_ARM_ARCH___7_-march_armv5t_-Wa_-march_armv7-a___-msoft-float_-Uarm______-O2__ := $/;"	m
+gcc-version.sh_gcc	.cache.mk	/^__cached_\/bin\/bash_.\/scripts\/gcc-version.sh_gcc := 0504$/;"	m
+get_item_show	sys_config.c	/^ssize_t get_item_show(struct class *class, struct class_attribute *attr, char *buf)$/;"	f
+get_item_store	sys_config.c	/^ssize_t get_item_store(struct class *class, struct class_attribute *attr,$/;"	f
+get_item_struct	sys_config.c	/^static sysfs_get_item_t get_item_struct;$/;"	v	file:
+gpio	sys_config.c	/^    script_item_u       *gpio;$/;"	m	struct:__anon7	file:
+gpio_cnt	sys_config.c	/^    int                 gpio_cnt;$/;"	m	struct:__anon7	file:
+gpio_name	sys_config.c	/^    char    gpio_name[32];$/;"	m	struct:__anon5	file:
+handle	dvb_drv.h	/^    unsigned int    handle;$/;"	m	struct:clk_para
+hash	sys_config.c	/^    int                         hash;$/;"	m	struct:__anon6	file:
+hash	sys_config.c	/^    int                 hash;$/;"	m	struct:__anon7	file:
+hash	sys_config.c	/^static int hash(char *string)$/;"	f	file:
+intrstatus	dvb_drv.h	/^struct intrstatus {$/;"	s
+intstatus	tscdrv.h	/^    struct intrstatus intstatus;    \/* save interrupt status *\/$/;"	m	struct:tsc_dev	typeref:struct:tsc_dev::intrstatus
+irq	tscdrv.h	/^    unsigned int irq;               \/* tsc driver irq number *\/$/;"	m	struct:tsc_dev
+irq_flag	tscdrv.h	/^    unsigned int irq_flag;          \/* flag of tsc driver irq generated *\/$/;"	m	struct:tsc_dev
+is_opened	tscdrv.h	/^    int    is_opened;$/;"	m	struct:tsc_dev
+length	sys_config.c	/^    unsigned int length;$/;"	m	struct:__anon4	file:
+lock	tscdrv.h	/^    spinlock_t lock;                \/* spinlock to protect ioclt access *\/$/;"	m	struct:tsc_dev
+main_cnt	sys_config.c	/^    unsigned int main_cnt;$/;"	m	struct:__anon4	file:
+main_key	sys_config.c	/^    script_origin_main_key_t    main_key;$/;"	m	struct:__anon4	file:
+mainkey	sys_config.c	/^	char mainkey[64];$/;"	m	struct:__anon10	file:
+mainkey	sys_config.c	/^	char mainkey[64];$/;"	m	struct:__anon9	file:
+mul_sel	sys_config.c	/^    int     mul_sel;$/;"	m	struct:__anon5	file:
+name	sys_config.c	/^    char                        name[SCRIPT_NAME_SIZE_MAX];$/;"	m	struct:__anon6	file:
+name	sys_config.c	/^    char                name[SCRIPT_NAME_SIZE_MAX];$/;"	m	struct:__anon7	file:
+name	sys_config.c	/^    char name[32];$/;"	m	struct:__anon1	file:
+name	sys_config.c	/^    char name[32];$/;"	m	struct:__anon2	file:
+next	sys_config.c	/^    void                        *next;$/;"	m	struct:__anon6	file:
+next	sys_config.c	/^    void                *next;$/;"	m	struct:__anon7	file:
+obj-m	Makefile	/^obj-m = tscdrv.o $/;"	m
+offset	sys_config.c	/^    int  offset;$/;"	m	struct:__anon1	file:
+offset	sys_config.c	/^    int  offset;$/;"	m	struct:__anon2	file:
+parent	tscdrv.h	/^    struct clk *parent;$/;"	m	struct:tsc_dev	typeref:struct:tsc_dev::clk
+pattern	sys_config.c	/^    }pattern;$/;"	m	struct:__anon2	typeref:struct:__anon2::__anon3	file:
+pinctrl	tscdrv.h	/^    struct pinctrl *pinctrl;$/;"	m	struct:tsc_dev	typeref:struct:tsc_dev::pinctrl
+port	sys_config.c	/^    int     port;$/;"	m	struct:__anon5	file:
+port0chan	dvb_drv.h	/^    unsigned int port0chan;$/;"	m	struct:intrstatus
+port0pcr	dvb_drv.h	/^    unsigned int port0pcr;$/;"	m	struct:intrstatus
+port1chan	dvb_drv.h	/^    unsigned int port1chan;$/;"	m	struct:intrstatus
+port1pcr	dvb_drv.h	/^    unsigned int port1pcr;$/;"	m	struct:intrstatus
+port_num	sys_config.c	/^    int     port_num;$/;"	m	struct:__anon5	file:
+port_to_index	sys_config.c	/^u32 port_to_index(u32 port, u32 port_num)$/;"	f
+pull	sys_config.c	/^    int     pull;$/;"	m	struct:__anon5	file:
+register_tsiomem	tscdrv.c	/^static int register_tsiomem(struct tsc_dev *devp)$/;"	f	file:
+regs	tscdrv.h	/^    struct resource *regs;          \/* registers resource *\/$/;"	m	struct:tsc_dev	typeref:struct:tsc_dev::resource
+regsaddr	tscdrv.h	/^    char *regsaddr ;                \/* registers address *\/$/;"	m	struct:tsc_dev
+release_tsc_pio	tscdrv.c	/^static void release_tsc_pio(void)$/;"	f	file:
+request_tsc_pio	tscdrv.c	/^static unsigned int request_tsc_pio(void)$/;"	f	file:
+script_class	sys_config.c	/^static struct class script_class = {$/;"	v	typeref:struct:class	file:
+script_class_attrs	sys_config.c	/^static struct class_attribute script_class_attrs[] = {$/;"	v	typeref:struct:class_attribute	file:
+script_dump_mainkey	sys_config.c	/^EXPORT_SYMBOL(script_dump_mainkey);$/;"	v
+script_dump_mainkey	sys_config.c	/^int script_dump_mainkey(char *main_key)$/;"	f
+script_get_item	sys_config.c	/^EXPORT_SYMBOL(script_get_item);$/;"	v
+script_get_item	sys_config.c	/^script_get_item(char *main_key, char *sub_key, script_item_u *item)$/;"	f
+script_get_length	sys_config.c	/^EXPORT_SYMBOL(script_get_length);$/;"	v
+script_get_length	sys_config.c	/^unsigned script_get_length(void)$/;"	f
+script_get_main_key_count	sys_config.c	/^EXPORT_SYMBOL(script_get_main_key_count);$/;"	v
+script_get_main_key_count	sys_config.c	/^unsigned int script_get_main_key_count(void)$/;"	f
+script_get_main_key_name	sys_config.c	/^EXPORT_SYMBOL(script_get_main_key_name);$/;"	v
+script_get_main_key_name	sys_config.c	/^char *script_get_main_key_name(unsigned int main_key_index)$/;"	f
+script_get_pio_list	sys_config.c	/^EXPORT_SYMBOL(script_get_pio_list);$/;"	v
+script_get_pio_list	sys_config.c	/^int script_get_pio_list(char *main_key, script_item_u **list)$/;"	f
+script_init	sys_config.c	/^int __init script_init(void)$/;"	f
+script_is_main_key_exist	sys_config.c	/^EXPORT_SYMBOL(script_is_main_key_exist);$/;"	v
+script_is_main_key_exist	sys_config.c	/^bool script_is_main_key_exist(char *main_key)$/;"	f
+script_main_key_t	sys_config.c	/^} script_main_key_t;$/;"	t	typeref:struct:__anon7	file:
+script_origin_gpio_t	sys_config.c	/^} script_origin_gpio_t;$/;"	t	typeref:struct:__anon5	file:
+script_origin_head_t	sys_config.c	/^} script_origin_head_t;$/;"	t	typeref:struct:__anon4	file:
+script_origin_main_key_t	sys_config.c	/^} script_origin_main_key_t;$/;"	t	typeref:struct:__anon1	file:
+script_origin_sub_key_t	sys_config.c	/^} script_origin_sub_key_t;$/;"	t	typeref:struct:__anon2	file:
+script_parser_value_type_t	sys_config.c	/^} script_parser_value_type_t;$/;"	t	typeref:enum:__anon8	file:
+script_sub_key_t	sys_config.c	/^} script_sub_key_t;$/;"	t	typeref:struct:__anon6	file:
+script_sysfs_init	sys_config.c	/^postcore_initcall(script_sysfs_init);$/;"	v
+script_sysfs_init	sys_config.c	/^static int __init script_sysfs_init(void)$/;"	f	file:
+sem	tscdrv.h	/^    struct semaphore sem;           \/* mutual exclusion semaphore *\/$/;"	m	struct:tsc_dev	typeref:struct:tsc_dev::semaphore
+snd_sw_tsc_resume	tscdrv.c	/^static int snd_sw_tsc_resume(struct platform_device *pdev)$/;"	f	file:
+snd_sw_tsc_suspend	tscdrv.c	/^static int snd_sw_tsc_suspend(struct platform_device *pdev,pm_message_t state)$/;"	f	file:
+sub_cnt	sys_config.c	/^    int  sub_cnt;$/;"	m	struct:__anon1	file:
+subkey	sys_config.c	/^	char subkey[64];$/;"	m	struct:__anon10	file:
+subkey	sys_config.c	/^    script_sub_key_t    *subkey;$/;"	m	struct:__anon7	file:
+subkey_val	sys_config.c	/^    script_item_u       *subkey_val;$/;"	m	struct:__anon7	file:
+sunxi_device_tsc	tscdrv.c	/^struct platform_device sunxi_device_tsc = {$/;"	v	typeref:struct:platform_device
+sunxi_tsc_driver	tscdrv.c	/^static struct platform_driver sunxi_tsc_driver = {$/;"	v	typeref:struct:platform_driver	file:
+sunxi_tsc_exit	tscdrv.c	/^module_exit(sunxi_tsc_exit);$/;"	v
+sunxi_tsc_exit	tscdrv.c	/^static void __exit sunxi_tsc_exit(void)$/;"	f	file:
+sunxi_tsc_init	tscdrv.c	/^module_init(sunxi_tsc_init);$/;"	v
+sunxi_tsc_init	tscdrv.c	/^static int __init sunxi_tsc_init(void)$/;"	f	file:
+sunxi_tsc_probe	tscdrv.c	/^static int __devinit sunxi_tsc_probe(struct platform_device *pdev)$/;"	f	file:
+sunxi_tsc_remove	tscdrv.c	/^static int __devexit sunxi_tsc_remove(struct platform_device *pdev)$/;"	f	file:
+sunxi_tsc_resource	tscdrv.c	/^static struct resource sunxi_tsc_resource[] = {$/;"	v	typeref:struct:resource	file:
+sysfs_dump_t	sys_config.c	/^}sysfs_dump_t;$/;"	t	typeref:struct:__anon9	file:
+sysfs_get_item_t	sys_config.c	/^}sysfs_get_item_t;$/;"	t	typeref:struct:__anon10	file:
+ts_dev_major	tscdrv.h	/^    int     ts_dev_major;$/;"	m	struct:tsc_dev
+ts_dev_minor	tscdrv.h	/^    int     ts_dev_minor;$/;"	m	struct:tsc_dev
+tsc_clk	tscdrv.h	/^    struct clk *tsc_clk;            \/* ts  clock *\/$/;"	m	struct:tsc_dev	typeref:struct:tsc_dev::clk
+tsc_dev	tscdrv.h	/^struct tsc_dev {$/;"	s
+tsc_devp	tscdrv.c	/^static struct tsc_dev *tsc_devp = NULL;$/;"	v	typeref:struct:tsc_dev	file:
+tsc_used	tscdrv.c	/^static int tsc_used = 0;$/;"	v	file:
+tscdev_exit	tscdrv.c	/^static void __exit tscdev_exit(void)$/;"	f	file:
+tscdev_fops	tscdrv.c	/^static struct file_operations tscdev_fops = {$/;"	v	typeref:struct:file_operations	file:
+tscdev_init	tscdrv.c	/^static int __init tscdev_init(void)$/;"	f	file:
+tscdev_ioctl	tscdrv.c	/^long tscdev_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f
+tscdev_mmap	tscdrv.c	/^static int tscdev_mmap(struct file *filp, struct vm_area_struct *vma)$/;"	f	file:
+tscdev_open	tscdrv.c	/^static int tscdev_open(struct inode *inode, struct file *filp)$/;"	f	file:
+tscdev_poll	tscdrv.c	/^unsigned int tscdev_poll(struct file *filp, struct poll_table_struct *wait)$/;"	f
+tscdev_release	tscdrv.c	/^static int tscdev_release(struct inode *inode, struct file *filp)$/;"	f	file:
+tscdev_remap_vm_ops	tscdrv.c	/^static struct vm_operations_struct tscdev_remap_vm_ops = {$/;"	v	typeref:struct:vm_operations_struct	file:
+tscdev_vma_close	tscdrv.c	/^void tscdev_vma_close(struct vm_area_struct *vma)$/;"	f
+tscdev_vma_open	tscdrv.c	/^void tscdev_vma_open(struct vm_area_struct *vma)$/;"	f
+tscdriverinterrupt	tscdrv.c	/^static irqreturn_t tscdriverinterrupt(int irq, void *dev_id)$/;"	f	file:
+tsiomem_unregister	tscdrv.c	/^static void tsiomem_unregister(struct tsc_dev *devp)$/;"	f	file:
+type	sys_config.c	/^        u32 type: 16;$/;"	m	struct:__anon2::__anon3	file:
+type	sys_config.c	/^    script_item_value_type_e    type;$/;"	m	struct:__anon6	file:
+value	sys_config.c	/^    script_item_u               *value;$/;"	m	struct:__anon6	file:
+version	sys_config.c	/^    unsigned int version[2];$/;"	m	struct:__anon4	file:
+wq	tscdrv.h	/^    wait_queue_head_t  wq;          \/* wait queue for poll ops *\/$/;"	m	struct:tsc_dev
